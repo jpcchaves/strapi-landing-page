@@ -3,6 +3,11 @@ export const theme = {
     mainBg: "red",
     secondBg: "blue",
   },
-  fonts: {},
+  fonts: {
+    family: {
+      default: "'Open Sans', sans-serif",
+      secondary: "'Montserrat', sans-serif'",
+    },
+  },
   spacings: {},
 };
