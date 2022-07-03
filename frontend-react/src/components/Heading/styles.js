@@ -12,12 +12,13 @@ const titleSize = {
   `,
   huge: (theme) => css`
     font-size: ${theme.fonts.sizes.xhuge};
+    ${mediaFont(theme)}
   `,
 };
 
 const mediaFont = (theme) => css`
   @media ${theme.media.lteMedium} {
-    font-size: ${theme.fonts.sizes.huge};
+    font-size: ${theme.fonts.sizes.xlarge};
   }
 `;
 
